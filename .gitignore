@@ -1,0 +1,6 @@
+# Ignorar todo
+*
+
+# Pero no ignores estos archivos
+!.gitignore
+!main.tf
