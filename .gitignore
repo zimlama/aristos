@@ -1,6 +1,8 @@
 # Ignorar todo
 *
 
-# Pero no ignores estos archivos
+# Permitir estos
 !.gitignore
-!main.tf
+!README.md
+!assets/
+!assets/**

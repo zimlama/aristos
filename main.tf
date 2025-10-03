@@ -41,7 +41,7 @@ variable "aws_region" {
 
 variable "aws_profile" {
   type        = string
-  description = "Perfil de credenciales AWS (archivo ~/.aws/credentials)"
+  description = "llave profile"
   default     = "web-app"
 }
 
