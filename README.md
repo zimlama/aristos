@@ -102,7 +102,7 @@ Para la implementación utilicé **AWS** en lugar de GCP, siguiendo el mismo o
 ### **Despliegue de la Aplicación y Verificación**
 
 1.  **Servidor Web**
-    - Una vez creada la instancia EC2, se accedió por **SSH** para instalar **Nginx**.
+    - En el proceso de creacion de la instancia EC2, se adiciono en el template de **Terraform** para instalar **Nginx**.
 
     <!-- -->
 
@@ -112,15 +112,15 @@ Para la implementación utilicé **AWS** en lugar de GCP, siguiendo el mismo o
 
 2.  **Accesos disponibles**
 
-    - URL HTTP: [http://ec2-13-222-227-80.compute-1.amazonaws.com](http://ec2-13-222-227-80.compute-1.amazonaws.com/)
+    - URL HTTP: [http://ec2-52-204-119-5.compute-1.amazonaws.com](http://ec2-52-204-119-5.compute-1.amazonaws.com/)
 
     <!-- -->
 
-    - URL HTTPS: [https://ec2-13-222-227-80.compute-1.amazonaws.com](https://ec2-13-222-227-80.compute-1.amazonaws.com/)
+    - URL HTTPS: [https://ec2-52-204-119-5.compute-1.amazonaws.com](https://ec2-52-204-119-5.compute-1.amazonaws.com/)
 
     <!-- -->
 
-    - Public IP: `13.222.227.80`
+    - Public IP: `52.204.119.5`
 
     Se validó el acceso web desde un navegador confirmando la correcta publicación del servicio.
 
