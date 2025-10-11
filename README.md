@@ -121,6 +121,7 @@ Para la implementación utilicé **AWS** en lugar de GCP, siguiendo el mismo o
     <!-- -->
 
     - Public IP: `52.204.119.5`
+    
 
     Se validó el acceso web desde un navegador confirmando la correcta publicación del servicio.
 
